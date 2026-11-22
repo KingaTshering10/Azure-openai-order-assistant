@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Azure OpenAI Order Assistant</title>
+  <desc id="desc">A Streamlit and FastAPI tool-calling learning lab with a historical demo order.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1428"/><stop offset="1" stop-color="#172b4b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <rect width="1200" height="350" rx="22" fill="url(#bg)"/>
+  <circle cx="1120" cy="40" r="210" fill="#38bdf8" opacity=".035"/>
+  <circle cx="740" cy="360" r="190" fill="#a78bfa" opacity=".045"/>
+  <path d="M0 334 H1200" stroke="url(#accent)" stroke-width="3"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="57" fill="#7dd3fc" font-size="13" font-weight="700" letter-spacing="2">TOOL CALLING / HANDS-ON LAB</text>
+    <text x="54" y="122" fill="#f8fafc" font-size="48" font-weight="700">Azure OpenAI</text>
+    <text x="54" y="181" fill="#f8fafc" font-size="48" font-weight="700">Order Assistant</text>
+    <text x="58" y="225" fill="#b5c8e0" font-size="21">Ask naturally. Look up precisely.</text>
+    <rect x="58" y="265" width="142" height="32" rx="16" fill="#123752"/>
+    <text x="129" y="286" text-anchor="middle" fill="#7dd3fc" font-size="12" font-weight="700">STREAMLIT</text>
+    <rect x="212" y="265" width="130" height="32" rx="16" fill="#173d3d"/>
+    <text x="277" y="286" text-anchor="middle" fill="#6ee7b7" font-size="12" font-weight="700">FASTAPI</text>
+    <rect x="354" y="265" width="164" height="32" rx="16" fill="#2a294b"/>
+    <text x="436" y="286" text-anchor="middle" fill="#c4b5fd" font-size="12" font-weight="700">PYTHON + TOOLS</text>
+    <rect x="790" y="48" width="352" height="254" rx="18" fill="#111e33" stroke="#33445e"/>
+    <rect x="812" y="69" width="112" height="25" rx="12" fill="#203650"/>
+    <text x="868" y="86" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="700" letter-spacing="1">DEMO RECORD</text>
+    <circle cx="1112" cy="81" r="4" fill="#34d399"/>
+    <text x="814" y="127" fill="#8da7c4" font-size="11" letter-spacing="1.2">ORDER NUMBER</text>
+    <text x="813" y="159" fill="#f8fafc" font-size="29" font-weight="700">123456789</text>
+    <path d="M814 179 H1118" stroke="#2a3b54"/>
+    <text x="814" y="205" fill="#8da7c4" font-size="11" letter-spacing="1.2">SAMPLE DELIVERY DATE</text>
+    <text x="813" y="236" fill="#e2e8f0" font-size="25" font-weight="700">28 JUL 2024</text>
+    <text x="814" y="275" fill="#8da7c4" font-size="11">Historical mock data · Local REST service</text>
+  </g>
+</svg>
